@@ -186,13 +186,19 @@ layer_0/tile_data = PackedInt32Array(131071, 983040, 5, 196607, 983040, 5, 26214
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1691018541]
 anchor_mode = 0
 
-[node name="P1" parent="." unique_id=930347221 instance=ExtResource("4_1bvp3")]
-position = Vector2(62, 317)
-motion_mode = 1
-script = ExtResource("5_lquwl")
-
 [node name="P2" parent="." unique_id=257597690 instance=ExtResource("5_7mycd")]
 position = Vector2(1087, 310)
 script = ExtResource("6_7mycd")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=789137571]
+
+[node name="Parry tis you casual!" type="CharacterBody2D" parent="." unique_id=1733254040]
+
+[node name="Sprite2D" type="Sprite2D" parent="Parry tis you casual!" unique_id=1694621966]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Parry tis you casual!" unique_id=3492616]
+
+[node name="P1" parent="." unique_id=930347221 instance=ExtResource("4_1bvp3")]
+position = Vector2(62, 317)
+motion_mode = 1
+script = ExtResource("5_lquwl")
