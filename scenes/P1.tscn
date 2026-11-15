@@ -74,6 +74,7 @@ height = 20.603127
 texture_filter = 1
 
 [node name="Run_animation" type="AnimatedSprite2D" parent="." unique_id=1198755531]
+texture_filter = 1
 scale = Vector2(1.2, 1.2)
 sprite_frames = SubResource("SpriteFrames_3owqy")
 animation = &"run"
@@ -84,4 +85,4 @@ position = Vector2(1.4999995, -0.528591)
 scale = Vector2(5.667794, -8.005717)
 shape = SubResource("CapsuleShape2D_ukyud")
 
-[node name="base sprite" type="Sprite2D" parent="." unique_id=670871467]
+[node name="Hit Sprite" type="Sprite2D" parent="." unique_id=670871467]

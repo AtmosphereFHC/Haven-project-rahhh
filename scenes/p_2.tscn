@@ -95,18 +95,19 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ya6cy"]
-radius = 46.0
-height = 164.0
+radius = 11.793611
+height = 28.009827
 
 [node name="P2" type="CharacterBody2D" unique_id=257597690]
+position = Vector2(2, -26)
+scale = Vector2(4.07, 4.07)
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=615755597]
+[node name="Runanimation" type="AnimatedSprite2D" parent="." unique_id=615755597]
 texture_filter = 1
 position = Vector2(1, 0.99999994)
-scale = Vector2(4.171874, 6.601563)
 sprite_frames = SubResource("SpriteFrames_dpga7")
 animation = &"run"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1537173220]
-position = Vector2(0, 7)
+position = Vector2(0, 0.49140033)
 shape = SubResource("CapsuleShape2D_ya6cy")

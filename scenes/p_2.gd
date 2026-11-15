@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 @export var speed = 500
-@onready var sprite = $Run_animation
+@onready var sprite = $Runanimation
 
 
 func get_input():
