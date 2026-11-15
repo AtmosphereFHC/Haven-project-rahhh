@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://cr6c6pi082pj5"]
 
+[ext_resource type="Script" uid="uid://rf8rgb5lrhky" path="res://scenes/rahhgsdfed.gd" id="1_78aps"]
 [ext_resource type="Texture2D" uid="uid://elpqnhytbp0a" path="res://Jump (32x32).png" id="1_imoho"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_yyg2w"]
@@ -8,6 +9,7 @@ height = 98.0
 
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=676829524]
 scale = Vector2(3, 3)
+script = ExtResource("1_78aps")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=819266797]
 texture_filter = 1
