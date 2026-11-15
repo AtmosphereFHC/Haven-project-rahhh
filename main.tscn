@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://cq1n1xnedu1wo" path="res://scenes/P1.tscn" id="4_1bvp3"]
 [ext_resource type="PackedScene" uid="uid://g2h7n88stkte" path="res://scenes/p_2.tscn" id="5_7mycd"]
 [ext_resource type="Script" uid="uid://dhf7why580d8t" path="res://scenes/p_1.gd" id="5_lquwl"]
+[ext_resource type="Script" uid="uid://cqfqajn8ykk35" path="res://scenes/p_2.gd" id="6_7mycd"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1bvp3"]
 texture = ExtResource("2_h2yge")
@@ -186,9 +187,10 @@ layer_0/tile_data = PackedInt32Array(131071, 983040, 5, 196607, 983040, 5, 26214
 anchor_mode = 0
 
 [node name="P1" parent="." unique_id=930347221 instance=ExtResource("4_1bvp3")]
-position = Vector2(82, 109)
+position = Vector2(62, 317)
 motion_mode = 1
 script = ExtResource("5_lquwl")
 
-[node name="P2" parent="." unique_id=2094798486 instance=ExtResource("5_7mycd")]
-position = Vector2(162, 7)
+[node name="P2" parent="." unique_id=257597690 instance=ExtResource("5_7mycd")]
+position = Vector2(1076, 331)
+script = ExtResource("6_7mycd")

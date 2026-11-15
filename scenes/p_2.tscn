@@ -90,21 +90,23 @@ animations = [{
 "texture": SubResource("AtlasTexture_j1caq")
 }],
 "loop": 1,
-"name": &"default",
-"speed": 5.0
+"name": &"run",
+"speed": 18.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_3owqy"]
-size = Vector2(95, 167)
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ya6cy"]
+radius = 46.0
+height = 164.0
 
-[node name="P2" type="CharacterBody2D" unique_id=2094798486]
+[node name="P2" type="CharacterBody2D" unique_id=257597690]
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=654793497]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=615755597]
 texture_filter = 1
-position = Vector2(49.500004, 95.50001)
-scale = Vector2(4.0937505, 6.9687505)
+position = Vector2(1, 0.99999994)
+scale = Vector2(4.171874, 6.601563)
 sprite_frames = SubResource("SpriteFrames_dpga7")
+animation = &"run"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1185552658]
-position = Vector2(46.5, 102.5)
-shape = SubResource("RectangleShape2D_3owqy")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1537173220]
+position = Vector2(0, 7)
+shape = SubResource("CapsuleShape2D_ya6cy")
