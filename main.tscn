@@ -172,6 +172,7 @@ texture = ExtResource("1_h2yge")
 stretch_mode = 1
 
 [node name="TileMap" type="TileMap" parent="TextureRect" unique_id=1923025995]
+position = Vector2(0, 3)
 scale = Vector2(3, 3)
 tile_set = SubResource("TileSet_3owqy")
 format = 2
