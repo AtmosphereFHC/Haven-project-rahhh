@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://g2h7n88stkte" path="res://scenes/p_2.tscn" id="5_7mycd"]
 [ext_resource type="Script" uid="uid://dhf7why580d8t" path="res://scenes/p_1.gd" id="5_lquwl"]
 [ext_resource type="Script" uid="uid://cqfqajn8ykk35" path="res://scenes/p_2.gd" id="6_7mycd"]
+[ext_resource type="AudioStream" uid="uid://cgkbenlejp2qp" path="res://Tobu_-_Candyland_NCS_Release-190269240.mp3" id="7_272bh"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1bvp3"]
 texture = ExtResource("2_h2yge")
@@ -191,6 +192,13 @@ position = Vector2(1087, 310)
 script = ExtResource("6_7mycd")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=789137571]
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+stream = ExtResource("7_272bh")
+autoplay = true
+=======
+>>>>>>> Stashed changes
 
 [node name="Parry tis you casual!" type="CharacterBody2D" parent="." unique_id=1733254040]
 
@@ -202,3 +210,7 @@ script = ExtResource("6_7mycd")
 position = Vector2(62, 317)
 motion_mode = 1
 script = ExtResource("5_lquwl")
+<<<<<<< Updated upstream
+=======
+>>>>>>> 82bb6d258305a984e3ee8898f787446cf40e8356
+>>>>>>> Stashed changes

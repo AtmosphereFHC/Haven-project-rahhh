@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://te2rrusqxsr3"
+path="res://.godot/imported/Jim Yosef - Firefly ｜ Progressive House ｜ NCS - Copyright Free Music-(127k).mp3-c076ddbaf222a7d7ee1b0d42911eecdf.mp3str"
+
+[deps]
+
+source_file="res://Jim Yosef - Firefly ｜ Progressive House ｜ NCS - Copyright Free Music-(127k).mp3"
+dest_files=["res://.godot/imported/Jim Yosef - Firefly ｜ Progressive House ｜ NCS - Copyright Free Music-(127k).mp3-c076ddbaf222a7d7ee1b0d42911eecdf.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4
