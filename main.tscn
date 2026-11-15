@@ -194,3 +194,5 @@ script = ExtResource("5_lquwl")
 [node name="P2" parent="." unique_id=257597690 instance=ExtResource("5_7mycd")]
 position = Vector2(1087, 310)
 script = ExtResource("6_7mycd")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=789137571]
