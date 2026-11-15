@@ -64,6 +64,7 @@ texture = ExtResource("2_h2yge")
 10:4/0 = 0
 12:4/0 = 0
 13:4/0 = 0
+13:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 14:4/0 = 0
 15:4/0 = 0
 17:4/0 = 0
@@ -82,9 +83,11 @@ texture = ExtResource("2_h2yge")
 9:5/0 = 0
 10:5/0 = 0
 12:5/0 = 0
+12:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 13:5/0 = 0
 14:5/0 = 0
 15:5/0 = 0
+15:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 17:5/0 = 0
 18:5/0 = 0
 19:5/0 = 0
@@ -152,6 +155,7 @@ texture = ExtResource("2_h2yge")
 20:10/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_3owqy"]
+physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_1bvp3")
 
 [node name="Node" type="Node" unique_id=2030971030]
