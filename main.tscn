@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://s221dyrbcfyn"]
 
-[ext_resource type="Texture2D" uid="uid://qjk5ytx2um7b" path="res://Gray.png" id="1_h2yge"]
+[ext_resource type="Texture2D" uid="uid://c6hrw3kfnfoh0" path="res://Brown.png" id="1_h2yge"]
 [ext_resource type="Texture2D" uid="uid://do21lk6mgvk70" path="res://Terrain (16x16).png" id="2_h2yge"]
 [ext_resource type="PackedScene" uid="uid://cr6c6pi082pj5" path="res://scenes/rahhgsdfed.tscn" id="3_h2yge"]
 
@@ -183,3 +183,5 @@ anchor_mode = 0
 
 [node name="CharacterBody2D" parent="." unique_id=676829524 instance=ExtResource("3_h2yge")]
 position = Vector2(80, 66)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1088074535]
