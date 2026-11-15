@@ -1,0 +1,87 @@
+[gd_scene format=3 uid="uid://cq1n1xnedu1wo"]
+
+[ext_resource type="Texture2D" uid="uid://bnytgs8h08773" path="res://Haven Project character 1.png" id="1_ukyud"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lquwl"]
+atlas = ExtResource("1_ukyud")
+region = Rect2(0, 0, 100, 135)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7mycd"]
+atlas = ExtResource("1_ukyud")
+region = Rect2(100, 0, 100, 135)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_272bh"]
+atlas = ExtResource("1_ukyud")
+region = Rect2(200, 0, 100, 135)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5vw27"]
+atlas = ExtResource("1_ukyud")
+region = Rect2(0, 135, 100, 135)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kek77"]
+atlas = ExtResource("1_ukyud")
+region = Rect2(100, 135, 100, 135)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4c57u"]
+atlas = ExtResource("1_ukyud")
+region = Rect2(200, 135, 100, 135)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_efxa6"]
+atlas = ExtResource("1_ukyud")
+region = Rect2(0, 270, 100, 135)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dg77c"]
+atlas = ExtResource("1_ukyud")
+region = Rect2(100, 270, 100, 135)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3owqy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lquwl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7mycd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_272bh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5vw27")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kek77")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4c57u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_efxa6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dg77c")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 12.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ukyud"]
+radius = 6.969201
+height = 20.603127
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=930347221]
+texture_filter = 1
+
+[node name="Run_animation" type="AnimatedSprite2D" parent="." unique_id=1198755531]
+scale = Vector2(1.2, 1.2)
+sprite_frames = SubResource("SpriteFrames_3owqy")
+animation = &"run"
+autoplay = "run"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1084038396]
+position = Vector2(1.4999995, -0.528591)
+scale = Vector2(5.667794, -8.005717)
+shape = SubResource("CapsuleShape2D_ukyud")
+
+[node name="base sprite" type="Sprite2D" parent="." unique_id=670871467]

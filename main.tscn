@@ -2,7 +2,9 @@
 
 [ext_resource type="Texture2D" uid="uid://c6hrw3kfnfoh0" path="res://Brown.png" id="1_h2yge"]
 [ext_resource type="Texture2D" uid="uid://do21lk6mgvk70" path="res://Terrain (16x16).png" id="2_h2yge"]
-[ext_resource type="PackedScene" uid="uid://cr6c6pi082pj5" path="res://scenes/rahhgsdfed.tscn" id="3_h2yge"]
+[ext_resource type="PackedScene" uid="uid://cq1n1xnedu1wo" path="res://scenes/P1.tscn" id="4_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://g2h7n88stkte" path="res://scenes/p_2.tscn" id="5_7mycd"]
+[ext_resource type="Script" uid="uid://dhf7why580d8t" path="res://scenes/p_1.gd" id="5_lquwl"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1bvp3"]
 texture = ExtResource("2_h2yge")
@@ -183,7 +185,10 @@ layer_0/tile_data = PackedInt32Array(131071, 983040, 5, 196607, 983040, 5, 26214
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1691018541]
 anchor_mode = 0
 
-[node name="CharacterBody2D" parent="." unique_id=676829524 instance=ExtResource("3_h2yge")]
-position = Vector2(80, 66)
+[node name="P1" parent="." unique_id=930347221 instance=ExtResource("4_1bvp3")]
+position = Vector2(82, 109)
+motion_mode = 1
+script = ExtResource("5_lquwl")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1088074535]
+[node name="P2" parent="." unique_id=2094798486 instance=ExtResource("5_7mycd")]
+position = Vector2(162, 7)
