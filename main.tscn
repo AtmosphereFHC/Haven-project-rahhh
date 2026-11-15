@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://qjk5ytx2um7b" path="res://Gray.png" id="1_h2yge"]
 [ext_resource type="Texture2D" uid="uid://do21lk6mgvk70" path="res://Terrain (16x16).png" id="2_h2yge"]
+[ext_resource type="PackedScene" uid="uid://cr6c6pi082pj5" path="res://scenes/rahhgsdfed.tscn" id="3_h2yge"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1bvp3"]
 texture = ExtResource("2_h2yge")
@@ -174,3 +175,6 @@ layer_0/tile_data = PackedInt32Array(131071, 983040, 5, 196607, 983040, 5, 26214
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1691018541]
 anchor_mode = 0
+
+[node name="CharacterBody2D" parent="." unique_id=676829524 instance=ExtResource("3_h2yge")]
+position = Vector2(80, 66)
